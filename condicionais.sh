@@ -1,4 +1,4 @@
-#!bin/sh
+#!/bin/sh
 
 #as condicionais em bash funcionam assim: if[ condicional ]; then fi
 #exemplo:

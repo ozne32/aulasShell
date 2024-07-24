@@ -1,4 +1,4 @@
-#!bin/sh 
+#!/bin/sh 
 echo 'coloque o primeiro número'
 read n1
 echo 'coloque o segundo número'

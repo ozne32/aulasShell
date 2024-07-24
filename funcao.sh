@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 #as funções em shell script funcionam de uma maneira bem intuitiva, basta declarar
 #um nome e após colocar (){} para definir, e logo em seguida colocar a lógica daquela função
 

@@ -1,4 +1,4 @@
-#!bin/sh
+#!/bin/sh
 #aqui é um rápido if para verificar se o usuário que está executando o script etá rodando como root
 if [ $USER != "root" ]; then
     echo 'necessita rodar como root'
