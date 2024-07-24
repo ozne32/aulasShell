@@ -1,4 +1,4 @@
-#!bin/bash
+#!bin/sh
 
 echo 'qual é seu nome ?'
 read nome
