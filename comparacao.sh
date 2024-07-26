@@ -28,7 +28,7 @@ read nome
 if [ -n "$nome" ]; then
     if [ "$nome" = 'Enzo' ] || [ "$nome" = 'enzo' ]; then
         echo 'eita nome bão'
-    elif [ "$nome" = 'ccbbeqeqbaba' ]; then
+    elif [ "$nome" = 'ccbbeqeqbastr' ]; then #konami code cima cima baixo baixo esquerda direita esquerda direita b a start
         echo -e '\033[31m'  # Inicia a cor vermelha
         echo '         uuuuuuu'
         echo '     uu$$$$$$$$$$$uu'
@@ -55,3 +55,9 @@ if [ -n "$nome" ]; then
 else
     echo 'execute dnv e digite algo'
 fi
+#comparação de arquivos, é a mais utilizada, consultar tabela, mas os comandos que mais são 
+#utilizados são 
+    # -e vê se o arquivo existe
+    # -d vê se existe e é um diretório 
+    # -f vê se o arquivo existe e é um arquivo 
+    # -s vê se o arquivo está vazio 

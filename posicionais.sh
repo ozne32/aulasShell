@@ -7,12 +7,12 @@ func_help(){
     "
 }
 func_inicia_docker(){
-    cd /caminho/para/docker/ #caminho para a sua aplicação docker
+    cd /home/alibabapenguim/nacionalFinal/ #caminho para a sua aplicação docker
     docker-compose up -d
     echo 'está rodando, acesse a aplicação em localhost:8080'
 }
 func_para_docker(){
-    cd /caminho/para/docker/ #caminho para sua aplicação docker
+    cd /home/alibabapenguim/nacionalFinal/ #caminho para sua aplicação docker
     docker-compose down
     echo 'containers derrubados'
 }
